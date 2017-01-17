@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*-----------------------------------------------------*/
+
+
+/*Section Form */
+
+.big-square {
+    margin: 0 auto;
+    width: 870px;
+    display: block;
+    color: white;
+    padding-bottom: 8px;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    border: 1px;
+    color: dimgray;
+    background-color: beige
+}
+
+input,
+textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    width: 50%;
+}
+
+.columns-container {
+    display: flex;
+}
+
+.column-66 {
+    width: 66%;
+}
+
+.column-33 {
+    width: 32%;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.column-33,
+.column-66 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.column-33 input[type="submit"] {
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    display: block;
+    margin: 0;
+}
+
+.row .input-container {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+
+.row .input-container input[type="checkbox"] {
+    width: 15px;
+}
+
+.row .label-for-textarea {
+    vertical-align: top;
+    margin-top: 11px;
+}
