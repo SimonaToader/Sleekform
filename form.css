@@ -7,9 +7,17 @@ body {
 
 
 /*Section Form */
+html {
+    background-color: snow;
+}
 
+form-text {
+   font-family: font-family: 'PT Sans', sans-serif;
+   font-size: 20px;   
+}
 .big-square {
     margin: 0 auto;
+    background: -webkit-linear-gradient(white, snow);
     width: 870px;
     display: block;
     color: white;
@@ -17,26 +25,32 @@ body {
     padding-top: 1px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    border-radius: 3px;
     border: 1px;
-    color: dimgray;
-    background-color: beige
+    border-style: double;
+
+    color: lightgray;
+    background-color: white
 }
 
 input,
 textarea {
+    font-family: font-family: 'PT Sans', sans-serif;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: none;
-    background-color: #3CBC8D;
-    color: white;
+    border: 1px;
+    border-style: ridge;
+    background-color: white;
+    color: dimgray;
     width: 100%;
+    box-shadow: inset 2px 2px lightgray; 
 }
 
 label {
     display: inline-block;
     width: 50%;
+    color: darkslategray;
 }
 
 .columns-container {
