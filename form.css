@@ -14,12 +14,7 @@ html {
 h1 {
     color: black;
 }
-body {
-    font-family: 'Overpass', sans-serif;
-    font-size: 14px;
-    color:black;
-    font-size: 12px;
-}
+
 
 form-text {
    font-family: 'Overpass', sans-serif;
@@ -50,7 +45,7 @@ textarea {
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px;
-    border-style: ridge;
+    border-style: none;
     background-color: white;
     color: black;
     width: 100%;
@@ -88,13 +83,12 @@ label {
     height: 83px;
     width: 100%;
     font-size: 30px;
-    color: white;
     display: block;
-    color:black;
     margin: 0;
     border-radius: 25px;
-    background: LightSteelBlue; 
-    box-shadow: 2px 6px;
+    background: LightSteelBlue;
+    border-style: none; 
+    box-shadow: 2px 6px lightgray;
 }
 
 .row .input-container {
