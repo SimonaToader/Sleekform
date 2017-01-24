@@ -1,0 +1,23 @@
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+
+/*-----------------------------------------------------*/
+
+
+/*Section Form */
+html {
+    background-color: snow;
+}
+
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form-text {
+   font-family: 'Overpass', sans-serif;
+   font-size: 70px;
+   color: black;   
+}

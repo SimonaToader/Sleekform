@@ -1,27 +1,4 @@
-body {
-    font-family: 'Overpass', sans-serif;
-}
-
-
-/*-----------------------------------------------------*/
-
-
-/*Section Form */
-html {
-    background-color: snow;
-}
-
-h1 {
-    color: black;
-}
-
-
-form-text {
-   font-family: 'Overpass', sans-serif;
-   font-size: 70px;
-   color: black;   
-}
-.big-square {
+.form-section .big-square {
     margin: 0 auto;
     background: -webkit-linear-gradient(white, snow);
     width: 870px;
@@ -38,8 +15,8 @@ form-text {
     background-color: white
 }
 
-input,
-textarea {
+.form-section input,
+.form-section textarea {
     font-family: 'Overpass', sans-serif;
     padding: 12px 20px;
     margin: 8px 0;
@@ -52,34 +29,32 @@ textarea {
     box-shadow: inset 2px 2px lightgray; 
 }
 
-label {
+.form-section label {
     display: inline-block;
     width: 50%;
     color: black;
 }
 
-.columns-container {
+.form-section .columns-container {
     display: flex;
 }
 
-.column-66 {
+.form-section .column-66 {
     width: 66%;
-}
-
-.column-33 {
-    width: 32%;
-    padding-left: 15px;
-    padding-top: 8px;
-    padding-bottom: 12px;
-}
-
-.column-33,
-.column-66 {
     display: inline-block;
     vertical-align: top;
 }
 
-.column-33 input[type="submit"] {
+.form-section .column-33 {
+    width: 32%;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-section .column-33 input[type="submit"] {
     height: 83px;
     width: 100%;
     font-size: 30px;
@@ -91,17 +66,17 @@ label {
     box-shadow: 2px 6px lightgray;
 }
 
-.row .input-container {
+.form-section .row .input-container {
     display: inline-block;
     width: 49%;
     text-align: left;
 }
 
-.row .input-container input[type="checkbox"] {
+.form-section .row .input-container input[type="checkbox"] {
     width: 15px;
 }
 
-.row .label-for-textarea {
+.form-section .row .label-for-textarea {
     vertical-align: top;
     margin-top: 11px;
 }
