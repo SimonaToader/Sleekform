@@ -26,7 +26,7 @@
 -demo.html
   <li>/JPEG</li>
  
--demo.jpeg
+-demo.jpeg <br>
 </ul>
 <h3>How to use it
 </h3>
