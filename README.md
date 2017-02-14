@@ -1,22 +1,20 @@
 <h2>
  Sleekform.css - Clean form for creating accounts
 </h2>
- <hr>
+<hr>
 <p>This is a clean-styled form built entirely in HTML and CSS.
 </p> 
 <h3>Demo
 </h3>
- <hr>
-  <p>Here's how the form looks like:
-  </p>
+<hr>
+<p>Here's how the form looks like:
+</p>
   <img src="screenshots/demo.jpg">
-<h3>
-   Folder structure
+<h3>Folder structure
 </h3>
- <hr>
-
- <ul style="list-style-type:circle">
- <ul>
+<hr>
+<ul style="list-style-type:circle">
+<ul>
   <li>/CSS</li>
       
 -demo.css <br>
@@ -26,16 +24,19 @@
 -demo.html
   <li>/JPEG</li>
  
--demo.jpeg <br>
+-demo.jpeg
 </ul>
+<br>
 <h3>How to use it
 </h3>
  <hr>
-<p.links style="background-color: gray">
-<p class= "links"> Insert links in your html file in your ```<head>``` section:
-
-    <link rel="stylesheet" type="text/css" href="form.css">
-    <link rel="stylesheet" type="text/css" href="demo.css">
+<p style="background-color: gray">
+<p> Insert links in your html file in your head section:
+</p>
+```html
+<link rel="stylesheet" type="text/css" href="form.css">
+<link rel="stylesheet" type="text/css" href="demo.css">
+```
 </p>
 <p>Copy the structure of HTML in your file to make sure the styles work correctly. The HTML and CSS have classes with names that will not interfere with your HTML file, unless doubled.
 </p>
