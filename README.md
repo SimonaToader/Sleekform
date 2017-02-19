@@ -17,7 +17,7 @@ Sleekform.css - Simple clean form built only with HTML and CSS
  </p>
 ```html
 <head>
-  <link rel="stylesheet" type="text/css" href="form.css">
+  <link rel="stylesheet" type="text/css" href="sleekform.css">
 </head>
 ```
 
