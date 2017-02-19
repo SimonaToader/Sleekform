@@ -59,7 +59,7 @@ Sleekform.css - Simple clean form built only with HTML and CSS
 </h3>
  <hr>
  <ul>
-  <li>Don't use same CSS class name: "form-section".</li>
-  <li>Form is not mobile ready(responsive).</li>
-  <li>Styled inputs are: text, email, textarea, checkbox.</li>
+  <li>Don't use same CSS class name: "form-section"</li>
+  <li>Form is not mobile ready(responsive)</li>
+  <li>Styled inputs are: text, email, textarea, checkbox</li>
 </ul>
