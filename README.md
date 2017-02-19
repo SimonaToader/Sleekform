@@ -12,18 +12,22 @@ Sleekform.css - Simple clean form built only with HTML and CSS
 <h3>How to use it
 </h3>
  <hr>
-<p style="background-color: gray">
-<p> Insert links in your html file in your head section:
-</p>
+
+ <p> 1. Insert links in your html file in your head section:
+ </p>
 ```html
-<link rel="stylesheet" type="text/css" href="form.css">
+<head>
+  <link rel="stylesheet" type="text/css" href="form.css">
+</head>
 ```
+
+<p>2. Copy the structure of HTML in your file to make sure the styles work correctly. The HTML and CSS have classes with names that will not interfere with your HTML file, unless doubled.
 </p>
-<p>Copy the structure of HTML in your file to make sure the styles work correctly. The HTML and CSS have classes with names that will not interfere with your HTML file, unless doubled.
-</p>
+
 <h3>Notes
 </h3>
  <hr>
  <ul>
   <li>Don't use same CSS class name: "form-section";</li>
   <li>Form is not mobile ready(responsive).</li>
+</ul>
